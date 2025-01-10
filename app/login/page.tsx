@@ -19,7 +19,7 @@ export default function LoginPage() {
     e.preventDefault();
 
     const adminEmail = 'admin@gmail.com';
-    const adminPassword = 'admin123';
+    const adminPassword = 'admin@gmail.com';
 
     if (email === adminEmail && password === adminPassword) {
       const userData = { email: adminEmail, role: 'admin' };

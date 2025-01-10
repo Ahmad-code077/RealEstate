@@ -12,9 +12,7 @@ export interface Property {
   bathrooms: number;
   squareFeet: number;
   image: string;
-  listedDate: string;
   status: string;
-  amenities?: string[];
 }
 
 interface PropertyListProps {

@@ -9,7 +9,6 @@
       "bathrooms": 2,
       "squareFeet": 1200,
       "image": "https://i.pinimg.com/736x/56/11/a0/5611a031c7de265fb91aeaf49140b0d8.jpg",
-      "listedDate": "2025-01-01",
       "status": "Available"
     },
     {
@@ -21,7 +20,6 @@
       "bathrooms": 1,
       "squareFeet": 1500,
       "image": "https://www.wavecity.in/uploads/blogs/202302040620461.jpg",
-      "listedDate": "2024-12-15",
       "status": "Sold"
     },
     {
@@ -32,12 +30,7 @@
       "bedrooms": 3,
       "bathrooms": 2,
       "squareFeet": 1800,
-      "amenities": [
-        "Pool",
-        "Garage"
-      ],
       "image": "https://media.newhomeinc.com/348/2024/2/7/DJI_0471.jpg?width=1000&ois=3e874f9&fit=bounds&height=562",
-      "listedDate": "2025-01-02",
       "status": "Available"
     },
     {
@@ -48,12 +41,7 @@
       "bedrooms": 2,
       "bathrooms": 1,
       "squareFeet": 900,
-      "amenities": [
-        "Gym",
-        "Doorman"
-      ],
       "image": "https://postandporch.com/cdn/shop/articles/AdobeStock_209124760.jpg?v=1662575433&width=1100",
-      "listedDate": "2025-01-04",
       "status": "Available"
     },
     {
@@ -64,13 +52,7 @@
       "bedrooms": 5,
       "bathrooms": 4,
       "squareFeet": 3500,
-      "amenities": [
-        "Private Pool",
-        "Garden",
-        "Ocean View"
-      ],
       "image": "https://www.dhabahawalpur.com/project/1626807283.jpg",
-      "listedDate": "2024-12-20",
       "status": "Available"
     },
     {
@@ -81,12 +63,7 @@
       "bedrooms": 4,
       "bathrooms": 3,
       "squareFeet": 2500,
-      "amenities": [
-        "Mountain View",
-        "Garage"
-      ],
       "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/595976763.jpg?k=9ba5616af9dc0943e9c4c4b2b3387ee90251ac9f5b06ddf39aa2dc81980457e4&o=",
-      "listedDate": "2025-01-03",
       "status": "Pending"
     },
     {
@@ -97,12 +74,7 @@
       "bedrooms": 3,
       "bathrooms": 2,
       "squareFeet": 1500,
-      "amenities": [
-        "Garage",
-        "Community Pool"
-      ],
       "image": "https://media.newhomeinc.com/348/2024/2/7/DJI_0471.jpg?width=1000&ois=3e874f9&fit=bounds&height=562",
-      "listedDate": "2025-01-01",
       "status": "Available"
     },
     {
@@ -124,12 +96,7 @@
       "bedrooms": 34,
       "bathrooms": 1,
       "squareFeet": 1400,
-      "amenities": [
-        "Beach Access",
-        "Pool"
-      ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/The_Lauren_condo_Bethesda_MD_2021-12-12_10-11-55_1.jpg/780px-The_Lauren_condo_Bethesda_MD_2021-12-12_10-11-55_1.jpg",
-      "listedDate": "2025-01-05",
       "status": "Sold"
     },
     {
@@ -142,6 +109,39 @@
       "bathrooms": 20,
       "squareFeet": 1500,
       "status": "Pending"
+    },
+    {
+      "id": "84b4",
+      "propertyType": "house",
+      "image": "https://cdn.dummyjson.com/recipe-images/20.webp",
+      "address": "1",
+      "price": 1,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 1,
+      "status": "Sold"
+    },
+    {
+      "id": "34b3",
+      "propertyType": "Simple House",
+      "image": "data:image/jpeg;base64,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",
+      "address": "Street no 1",
+      "price": 4000,
+      "bedrooms": 34,
+      "bathrooms": 567,
+      "squareFeet": 1400,
+      "status": "fulfiled"
+    },
+    {
+      "id": "e6b8",
+      "propertyType": "Farmhouse no",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIqFDhlQFSI08hQEa3FwGNdml8YNfiajYCeg&s",
+      "address": "Faisal Bagh, Sheikhupura, Lahore 54000",
+      "price": 4000,
+      "bedrooms": 34,
+      "bathrooms": 567,
+      "squareFeet": 1500,
+      "status": "Available"
     }
   ]
 }

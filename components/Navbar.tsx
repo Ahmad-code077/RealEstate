@@ -13,7 +13,6 @@ import {
 
 const data = [
   { id: 4, link: '/', title: 'Home' },
-  { id: 1, link: '/', title: 'Recipes' },
   { id: 2, link: '/about', title: 'About' },
   { id: 3, link: '/contact', title: 'Contact' },
 ];
@@ -53,11 +52,11 @@ const Navbar = () => {
     window.dispatchEvent(new Event('storage'));
   };
   const newData = user
-    ? [...data, { id: 5, link: '/admin', title: 'Dashboard' }]
-    : data;
+    ? [...data, { id: 6, link: '/admin', title: 'Dashboard' }]
+    : [...data, { id: 5, link: '/login', title: 'Login' }];
 
   return (
-    <nav className='sticky top-0 left-0 w-full z-50 shadow-lg'>
+    <nav className='sticky top-0 left-0 w-full z-50 shadow-lg bg-background border-b border-white'>
       <div className='max-w-6xl mx-auto px-4'>
         <div className='flex justify-between h-16 items-center'>
           <div className='flex-shrink-0 flex items-center'>
@@ -65,7 +64,7 @@ const Navbar = () => {
               href='/'
               className='text-2xl font-extrabold hover:text-primary transition-all'
             >
-              TastyBite
+              HouseHaven
             </Link>
           </div>
 
@@ -82,28 +81,27 @@ const Navbar = () => {
             ))}
           </div>
 
-          <div className='flex items-center gap-4'>
-            {user && (
-              <div className='relative'>
-                <button
-                  onClick={() => setDropdownOpen(!isDropdownOpen)}
-                  className='flex items-center justify-center gap-2 w-9 h-9 rounded-full border-2 border-border hover:border-secondary transition-all'
-                >
-                  <UserRound />
-                </button>
-                {isDropdownOpen && (
-                  <div className='absolute right-0 mt-2 w-48 border border-bisque rounded-lg shadow-lg p-2'>
-                    <button
-                      onClick={handleLogout}
-                      className='w-full text-left px-4 py-2 hover:bg-secondary transition-all rounded-lg'
-                    >
-                      Logout
-                    </button>
-                  </div>
-                )}
-              </div>
-            )}
-
+          {user && (
+            <div className='relative'>
+              <button
+                onClick={() => setDropdownOpen(!isDropdownOpen)}
+                className='flex items-center justify-center gap-2 w-9 h-9 rounded-full border-2 border-border hover:border-secondary transition-all'
+              >
+                <UserRound />
+              </button>
+              {isDropdownOpen && (
+                <div className='absolute right-0 mt-2 w-48 border border-bisque rounded-lg shadow-lg p-2 border-primary'>
+                  <button
+                    onClick={handleLogout}
+                    className='w-full text-left px-4 py-2 hover:bg-secondary transition-all rounded-lg'
+                  >
+                    Logout
+                  </button>
+                </div>
+              )}
+            </div>
+          )}
+          <div className='flex md:hidden items-center gap-4 '>
             {/* Mobile Menu */}
             <Sheet>
               <SheetTrigger>
@@ -116,7 +114,7 @@ const Navbar = () => {
                       className='font-extrabold hover:text-primary'
                       href='/'
                     >
-                      TastyBite
+                      HouseHaven
                     </Link>
                   </SheetTitle>
                 </SheetHeader>
